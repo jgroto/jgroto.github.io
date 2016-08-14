@@ -445,6 +445,10 @@ div.nav-wrapper
     position: absolute;
     left: 0; 
     right: 0;
+    top: 436px;
+    height: 1084px;
+//    bottom: 360px;
+//    z-index: 1;
 }
 
 .image-link-container {
@@ -452,9 +456,9 @@ div.nav-wrapper
     width: 680px;
     margin: 0 auto;
     padding: 0;
-    display: block;
+//    display: block;
     clear: both;
-    margin-top: 258px;
+//    margin-top: 258px;
 }
 
 .bold-list {
