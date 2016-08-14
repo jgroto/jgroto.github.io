@@ -2,17 +2,15 @@
  * Site header
  */
 .site-header {
-//    border-bottom: 2px solid $grey-color-dark;
     border-bottom: $header-border-width solid $nav-text-color;
-    min-height: $header-height;
+    height: $header-height;
 
+    @include iPhone6s {
+        height: $mobile-header-height;
+    }
     // Positioning context for the mobile navigation icon
     position: relative;
 
-//    background-image: url("/assets/img/expatpup_logo.png");
-    background-repeat: no-repeat;
-    background-size: (1.75 * $header-height) $header-height;
-//    background-color: $header-background-color;
     z-index: 10;
 }
 
@@ -24,15 +22,38 @@
     padding: 0;
     float: left;
 
-    &,
-    &:visited {
-        color: $grey-color-dark;
+    display: block;
+    background: url("/assets/img/expatpupLogoDesktop.png");
+    background-repeat: no-repeat;
+    background-size: (($header-height+1)*1.75) (($header-height+1)*1);
+    width: ($header-height) * 1.75;
+    height: $header-height; 
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    @include iPhone6s {
+        background-size: (($mobile-header-height+1)*1.75) (($mobile-header-height+1)*1);
+        width: ($mobile-header-height) * 1.75;
+        height: $mobile-header-height; 
     }
+
+    img {
+ //       width: ($header-height + 1) * 1.75;
+   //     height: $header-height + 1; 
+        width: 100%;
+        height: 100%; 
+        margin: 0;
+        padding: 0;
+//        position: absolute;
+  //      left: 0;
+    //    top: 0;
+    }    
 }
 
 .site-nav {
     float: right;
-    line-height: 100px;
+    line-height: $header-height;
     vertical-align: middle;
 
     .menu-icon {
@@ -56,6 +77,46 @@
         }
     }
 
+    .page-group {
+        display: inline-block;
+        position: relative;
+        font-family: helvetica;
+    }
+
+    .site-nav-children {
+        display: none;
+        position: absolute;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        top: 64px;
+        right: 14px;
+        background-color: $background-color;
+    }
+
+    .site-nav-child {
+        text-decoration: none;
+        line-height: 24px;  
+        white-space: nowrap;
+        margin: 0;
+        padding: 0;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .page-group:hover .site-nav-children  {
+        display: inline-block;
+    }
+
+    .page-group a {
+        color: $nav-text-color;
+    }
+
+    @include iPhone6s {
+        line-height: 60px;
+    }
+
     @include media-query($on-palm) {
         position: absolute;
         top: 32px;
@@ -64,6 +125,10 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
+
+        @include iPhone6s {
+            top: 16px;
+        }
 
         .menu-icon {
             display: inline-block;
@@ -113,42 +178,6 @@
         }
 
     }
-}
-
-.page-group {
-    display: inline-block;
-    position: relative;
-    font-family: helvetica;
-}
-
-.site-nav-children {
-    display: none;
-    position: absolute;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    top: 64px;
-    right: 14px;
-    background-color: $background-color;
-}
-
-.site-nav-child {
-    text-decoration: none;
-    line-height: 24px;  
-    white-space: nowrap;
-    margin: 0;
-    padding: 0;
-    padding-left: 6px;
-    padding-right: 6px;
-}
-
-.page-group:hover .site-nav-children  {
-    display: inline-block;
-}
-
-.page-group a {
-    color: $nav-text-color;
 }
 
 /**
@@ -315,6 +344,10 @@ form
     display: inline-block;
     line-height: 96px;
 
+    @include iPhone6s {
+        line-height: $mobile-header-height;
+    }
+
     @include media-query($on-palm) {        
         padding-right: 60px;
         clear: right;
@@ -370,6 +403,9 @@ form
 {
     position: absolute;
     top: $header-height; 
+    @include iPhone6s {
+        top: $mobile-header-height;
+    }
     left: 0;
     right: 0;
     background-color: $header-background-color;
@@ -391,31 +427,6 @@ div.nav-wrapper
 {
   //  float: left;
     text-align: right;    
-}
-
-.site-title {
-//<img src="/assets/img/expatpup_logo.png"/>    
-    display: block;
-    background: url("/assets/img/expatpupLogoDesktop.png");
-    background-repeat: no-repeat;
-    background-size: (($header-height+1)*1.75) (($header-height+1)*1);
-    width: ($header-height + 1) * 1.75;
-    height: $header-height + 1; 
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.site-title img {
-    width: ($header-height + 1) * 1.75;
-    height: $header-height + 1; 
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    left: 0;
-    top: 0;
 }
 
 .home .image-link {

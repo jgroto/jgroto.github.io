@@ -6,4 +6,5 @@ excerpt: Information about rabies vaccinations needed to move your pet from the 
 order: 2
 linkName: Vaccinations
 frontLinkImage: needleIcon.png
+frontLinkOrder: 3
 ---

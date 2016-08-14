@@ -7,7 +7,7 @@ excerpt: Ex-Pat Pup provides resources and information to move your pet from the
 <div class="home">
 	<div class="splash-wrapper">
 		<div class="splash">
-			<img id="dog_cat_splash" src="/assets/img/dog_cat_suitcase_splash.png"/>
+			<img id="dog_cat_splash" src="/assets/img/dogCatSplash.png"/>
 
 			<div>
 				<h1>Moving from the US to the UK?</h1>
@@ -19,7 +19,8 @@ excerpt: Ex-Pat Pup provides resources and information to move your pet from the
 	</div>
 	<div class="image-link-wrapper">
 		<div class="image-link-container">
-			{% for page in site.pages %}
+			{% assign sorted_pages = site.pages | sort:"frontLinkOrder" %}
+			{% for page in sorted_pages %}
 				{% if page.frontLinkImage != None %}
 					<a class="image-link" href="{{ page.url }}">
 						<div>{{ page.title }}</div>
