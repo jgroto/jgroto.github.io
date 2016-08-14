@@ -7,13 +7,19 @@
 
     {% include header.html %}
 
-    <div class="page-content">
+    <div id="page-content" class="page-content">
       <div class="wrapper">
         {{ content }}
       </div>
     </div>
 
     {% include footer.html %}
+  
+     <script type="text/javascript">
+      maxHeight = Math.max($(window).height(), $(document).height());
+      var minContentHeight = maxHeight - 360;
+     $(".page-content").css("min-height", minContentHeight + "px");
+     </script>
 
   </body>
 

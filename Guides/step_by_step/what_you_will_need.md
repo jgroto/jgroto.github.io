@@ -5,8 +5,6 @@ permalink: /what_you_will_need
 order: 2
 ---
 
-WHAT YOU WILL NEED
-
 Planning your pet’s journey is much easier once you familiarize yourself with the process.  You will have to take the following steps to bring your pet into the United Kingdom:
 
 -approved microchip (placed prior to the rabies vaccination) with implantation record
