@@ -26,6 +26,7 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 $header-height:    100px;
+$mobile-header-height: 70px;
 $header-border-width: 4px;
 $header-background-color: #B0D2D3;
 
@@ -49,9 +50,17 @@ $on-laptop:        790px;
     @media screen and (max-width: $device) {
         @content;
     }
+}	
+
+@mixin iPhone6s {
+	@media only screen 
+	  and (min-device-width: 375px) 
+	  and (max-device-width: 667px) 
+	  and (-webkit-min-device-pixel-ratio: 2)
+	{
+	    @content;
+	}
 }
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

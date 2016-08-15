@@ -15,7 +15,8 @@ Booking travel with your pet has a lot more restrictions than booking a flight f
 
 <b>Not all flights on approved routes allow pets.</b>  This is important to remember because it can seriously alter your travel plans.  Some airlines only fly pets once a day or a couple times a week, meaning you may not be able to fly out on your preferred departure date.
 
-<b>There are only a few pet seats available per flight.</b>  Once you’ve found an airline and a pet-friendly flight, you’ll need to book a seat.  While there may be 200 seats available for humans, there are only 5 or so available for pets.  These can fill up quickly during busy periods, or if one person on board has already booked several pets.  
+<b>There are only a few pet seats available per flight.</b>  Once you’ve found an airline and a pet-friendly flight, you’ll need to book a seat.  While there may be 200 seats available for humans, there are only 5 or so available for pets.  These can fill up quickly during busy periods, or if one person on board has already booked several pets.
+  
 <b>Some airlines require a human companion on board when your pet flies.</b>  This is something I recommend regardless.  Your pet’s flight will be a stressful experience, even in the best of situations.  Having a familiar face during the handover period may ease your pet’s worries.
 
 <b>The pet transport location is not always convenient to the airport departures.</b>  Your carrier may also require you to drop off your pet several hours in advance of your flight.  This is especially important if you need to take a connecting flight before your departure to the UK.  
