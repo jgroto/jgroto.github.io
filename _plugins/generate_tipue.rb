@@ -60,7 +60,7 @@ module Jekyll
 		def generate(site)
 			
 			pages=Array.new
-			target = File.open('js/tipuesearch_content.js', 'w')
+			target = File.open('assets/src/tipuesearch/tipuesearch_content_unedited.js', 'w')
 			target.truncate(target.size)
 			target.puts('var tipuesearch = {"pages": [')
 			
