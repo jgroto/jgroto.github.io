@@ -1,5 +1,6 @@
 ---
-layout: bannerWithTitle
+layout: bannerPage
+group: True
 title: FAQs
 permalink: /FAQs/
 order: 4

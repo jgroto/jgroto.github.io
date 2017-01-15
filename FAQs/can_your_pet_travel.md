@@ -1,5 +1,5 @@
 ---
-layout: bannerPost
+layout: bannerPage
 title: Can my pet travel?
 fullTitle: Restrictions on pet travel and breeds
 permalink: /pet-travel-restrictions

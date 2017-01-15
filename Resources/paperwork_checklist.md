@@ -1,12 +1,12 @@
 ---
-layout: bannerPost
+layout: bannerPage
 title: Paperwork Checklist
 permalink: /paperwork-checklist/
 excerpt: Download this checklist to keep track of all documents needed for your pet to travel
 order: 3
 bannerImage: checklistBanner.png
 frontLinkImage: checklistIcon.png
-frontLinkOrder: 6
+frontLinkOrder: 3
 ---
 
 This checklist includes all things necessary to move your pet from the US to the UK.  Use it as an organizational tool or to initiate conversations with your vet about what is necessary to bring your pet overseas.  

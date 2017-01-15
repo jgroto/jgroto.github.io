@@ -1,12 +1,12 @@
 ---
-layout: bannerPost
+layout: bannerPage
 title: Third-Country Certificate
 permalink: /annex/
 excerpt: The Annex is the third-country official veterinary certificate for the United States.  This article provides both the Annex IV for download as well as more information on the paperwork
 
 bannerImage: annexBanner.png
 frontLinkImage: annex.png
-frontLinkOrder: 2
+frontLinkOrder: 4
 
 ---
 

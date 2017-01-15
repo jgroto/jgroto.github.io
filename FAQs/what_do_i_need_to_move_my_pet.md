@@ -1,5 +1,5 @@
 ---
-layout: bannerPost
+layout: bannerPage
 title: What do I need to move my pet?
 permalink: /what-you-need
 order: 4

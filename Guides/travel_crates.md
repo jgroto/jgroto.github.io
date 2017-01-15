@@ -1,5 +1,5 @@
 ---
-layout: bannerPost
+layout: bannerPage
 title: Buying a Crate
 permalink: /buying-a-crate
 excerpt: Both the UK and airlines have requirements concerning your pet's travel container.  Consult this guide to help you with your purchase.

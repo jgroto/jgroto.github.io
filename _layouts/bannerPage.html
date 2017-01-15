@@ -6,9 +6,17 @@ excerpt: Ex-Pat Pup provides resources and information to move your pet from the
 
 <div class="home">
 	<div class="splash-wrapper">
+		{% if page.url == "/" or page.group != None %}
+		<div class="tiled-splash">
+		{% else %}
 		<div class="splash">
+		{% endif %}
 			{% if page.bannerImage %}
+			{% if page.url == "/" %}
 			<img id="dog_cat_splash" src="/assets/img/{{ page.bannerImage }}"/>
+			{% else %}
+			<img class="banner-image" src="/assets/img/{{ page.bannerImage }}"/>
+			{% endif %}
 			{% endif %}
 			<div>
 				{% if page.articleTitle %}
@@ -16,11 +24,13 @@ excerpt: Ex-Pat Pup provides resources and information to move your pet from the
 				{% else %}
 				<h1>{{ page.title }}</h1>
 				{% endif %}
+				<p>
 				{% if page.articleExcerpt %}
 				{{ page.articleExcerpt }}
 				{% else %}
 				{{ page.excerpt }}
 				{% endif %}
+				</p>
 
 			{% if page.url == "/" %}
 				<a id="guide_link_splash" href="/step-by-step-walkthrough">GO TO THE STEP-BY-STEP GUIDE</a>
@@ -29,15 +39,31 @@ excerpt: Ex-Pat Pup provides resources and information to move your pet from the
 		</div>
 	</div>
 
-	{% if page.url == "/" %}
+	{% if page.url == "/"  or page.group != None %}
 	<div class="image-link-wrapper">
 		<div class="image-link-container">
 			{% assign sorted_pages = site.pages | sort:"frontLinkOrder" %}
-			{% for page in sorted_pages %}
-				{% if page.frontLinkImage != None %}
-					<a class="image-link" href="{{ page.url }}">
-						<div>{{ page.title }}</div>
-						<img src="/assets/img/{{ page.frontLinkImage }}" style="width: 200px; height: 200px;"/>
+			{% for mpage in sorted_pages %}
+				{% assign path = mpage.path | split: "/" %}
+				{% if mpage.frontLinkImage != None and (page.url == "/" or path.size < 3 and path.first == page.title and mpage != page) %}
+					<a class="image-link" href="{{ mpage.url }}">
+						<div>{{ mpage.title }}</div>
+						<img src="/assets/img/{{ mpage.frontLinkImage }}" style="width: 200px; height: 200px;"/>
+				</a>
+				{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+	{% elsif page.group %}
+	<div class="image-link-wrapper">
+		<div class="image-link-container">
+			{% assign sorted_pages = site.pages | sort:"frontLinkOrder" %}
+			{% for mpage in sorted_pages %}
+				{% assign path = mpage.path | split: "/" %}
+				{% if mpage.frontLinkImage != None and path.size < 3 and path.first == page.title and mpage != page %}
+					<a class="image-link" href="{{ mpage.url }}">
+						<div>{{ mpage.title }}</div>
+						<img src="/assets/img/{{ mpage.frontLinkImage }}" style="width: 200px; height: 200px;"/>
 				</a>
 				{% endif %}
 			{% endfor %}
@@ -52,5 +78,5 @@ excerpt: Ex-Pat Pup provides resources and information to move your pet from the
 </div>
 
 <script type="text/javascript">
-$(".image-link-wrapper").css("margin-top", $(".splash").height() + 22 + "px");
+$(".page-content").css("margin-top", $(".splash-wrapper").height() + "px");
 </script>

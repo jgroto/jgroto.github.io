@@ -16,12 +16,13 @@
 
 .twitter-share-container, .facebook-share-container {
     position: absolute;
-    left: 12px; 
+    left: 9px; 
     margin-top: $header-height + 12;
 }
 
 .facebook-share-container {
-    margin-top: $header-height + 36;   
+    left: 11px; 
+    margin-top: $header-height + 36;
 }
 
 .site-title {
@@ -134,7 +135,7 @@
     @include media-query($on-palm) {
         position: absolute;
         top: 32px;
-        right: $spacing-unit / 2;
+        right: 380px;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
@@ -202,6 +203,7 @@ body .site-footer {
     margin-top: 0px;
     padding: $spacing-unit 0;
     background-color: $header-background-color;
+    height: $footer-height;
 }
 
 .footer-heading {
@@ -375,12 +377,12 @@ form
     width: 250px * 1.02;
     height: 250px;
     float: right;
-    vertical-align: top;
+    vertical-align: center;
     margin: 0;
     padding: 0;
+    margin-bottom: 15px;
     position: relative;
     display: inline-block;
-    margin-bottom: 20px;
 
     @include iPhone6s {
       width: 150px * 1.02;
@@ -390,15 +392,17 @@ form
 
 .banner-image
 {
-    width: 250px * 1.02;
-    height: 250px;
-    float: right;
-    vertical-align: top;
-    margin: 0;
+//    width: 250px * 1.02;
+    height: 100px;
+    min-width: 100 * 1.6px;
+    float: left;
+    vertical-align: center;
+    margin: 20px;
+    margin-left: 0px;
+    margin-top: 10px;
     padding: 0;
     position: relative;
     display: inline-block;
-    margin-bottom: 20px;
 
     @include iPhone6s {
       width: 150px * 1.02;
@@ -430,15 +434,11 @@ form
     display: inline-block;
     color: white;
     font-size: 20px;
-    margin-top: 76px;
+    position: absolute;
+    bottom: 21px;
      @include iPhone6s {
            margin-top: 15px;
      }
-}
-
-.home 
-{
-    padding-top: 40px;
 }
 
 .home .splash-wrapper
@@ -455,12 +455,13 @@ form
     }
 }
 
-
-.splash, .splash-post
+.splash, .splash-post, .tiled-splash
 {
-    width: 650px;
+    width: $content-width;
     margin: 0 auto;
-    padding: 40px;
+    padding: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: white;
 
     @include iPhone6s {
@@ -468,6 +469,14 @@ form
         padding: 10px;
         padding-top: 16px;
     }
+}
+
+.tiled-splash {
+    width: 660px;
+}
+
+.splash p {
+    max-width: 650px;
 }
 
 .splash-post
@@ -486,6 +495,8 @@ div.nav-wrapper
 
 .home .image-link {
     margin: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
     float: left;
     color: white;
     width: 200px;

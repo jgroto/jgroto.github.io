@@ -12,7 +12,7 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     16px;
 
 $text-color:       #111;
 $nav-text-color:   #DD0000;
@@ -31,12 +31,14 @@ $header-border-width: 4px;
 $header-background-color: #B0D2D3;
 
 // Width of the content area
-$content-width:    900px;
+$content-width:    760px;
 
 $header-width:	   790px;
-$on-palm:          790px;
+$on-palm:          740px;
 $on-laptop:        790px;
 
+
+$footer-height: 120px;
 
 
 // Use media queries like this:

@@ -1,5 +1,5 @@
 ---
-layout: bannerPost
+layout: bannerPage
 title: Vaccine Information
 permalink: /rabies-vaccination-information
 excerpt: The UK has strict rules regarding when the rabies vaccination takes place.  Knowing if a rabies vaccination is needed is crucial to planning your pet’s journey.
