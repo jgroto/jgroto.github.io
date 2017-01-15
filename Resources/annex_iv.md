@@ -17,7 +17,7 @@ The third-country official veterinary certificate is the equivalent of the Pet P
 The United Kingdom recently updated their third-country official veterinary certificate.  Starting from September 1st 2016, the country will no longer accept the older certificates.  Failure to have a completed Annex certificate will likely cause travel delays, your pet to be denied entry, or quarantine.  Download the form below or read more about the third-country official veterinary certificate and the recent changes at <a href="https://www.gov.uk/government/publications/pet-travel-certificate-for-movement-of-dogs-cats-and-ferrets-from-third-countries">the official UK government website.</a>  
 
 <div>
-<object data="/assets/pdf/animal_health_certificate.pdf" type="application/pdf" width="600" height="700">
+<object data="/assets/pdf/animal_health_certificate.pdf" type="application/pdf" width="600" height="780">
 alt : <a href="/assets/pdf/animal_health_certificatex.pdf">test.pdf</a>
 </object>
 </div> 

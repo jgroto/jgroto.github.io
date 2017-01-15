@@ -14,7 +14,7 @@ This checklist includes all things necessary to move your pet from the US to the
 (right click to download/print the checklist)
 
 <div>
-<object data="/assets/pdf/pet_travel_checklist.pdf" type="application/pdf" width="600" height="700">
+<object data="/assets/pdf/pet_travel_checklist.pdf" type="application/pdf" width="600" height="780">
 alt : <a href="/assets/pdf/pet_travel_checklist.pdf">test.pdf</a>
 </object>
 </div> 
