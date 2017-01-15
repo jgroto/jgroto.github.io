@@ -1,0 +1,56 @@
+---
+layout: default
+title: Moving your pet from the US to the UK
+excerpt: Ex-Pat Pup provides resources and information to move your pet from the US to the UK on your own with ease
+---
+
+<div class="home">
+	<div class="splash-wrapper">
+		<div class="splash">
+			{% if page.bannerImage %}
+			<img id="dog_cat_splash" src="/assets/img/{{ page.bannerImage }}"/>
+			{% endif %}
+			<div>
+				{% if page.articleTitle %}
+				<h1>{{ page.articleTitle }}</h1>
+				{% else %}
+				<h1>{{ page.title }}</h1>
+				{% endif %}
+				{% if page.articleExcerpt %}
+				{{ page.articleExcerpt }}
+				{% else %}
+				{{ page.excerpt }}
+				{% endif %}
+
+			{% if page.url == "/" %}
+				<a id="guide_link_splash" href="/step-by-step-walkthrough">GO TO THE STEP-BY-STEP GUIDE</a>
+			{% endif %}
+			</div>
+		</div>
+	</div>
+
+	{% if page.url == "/" %}
+	<div class="image-link-wrapper">
+		<div class="image-link-container">
+			{% assign sorted_pages = site.pages | sort:"frontLinkOrder" %}
+			{% for page in sorted_pages %}
+				{% if page.frontLinkImage != None %}
+					<a class="image-link" href="{{ page.url }}">
+						<div>{{ page.title }}</div>
+						<img src="/assets/img/{{ page.frontLinkImage }}" style="width: 200px; height: 200px;"/>
+				</a>
+				{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+	{% else %}
+	<div class="post-content">
+	{{ content }}
+	</div>
+	{% endif %}
+
+</div>
+
+<script type="text/javascript">
+$(".image-link-wrapper").css("margin-top", $(".splash").height() + 22 + "px");
+</script>

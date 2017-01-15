@@ -5,7 +5,7 @@ permalink: /final_vet_visit_and_paperwork
 order: 5
 timeline: True
 ---
-The most important veterinary appointment is the last one.  This is where your dog will receive their tapeworm treatment, where your pet will be deemed fit to travel and where all your paperwork and documents will be completed.  The <a>PETS travel scheme</a> is fairly new and specific to the United Kingdom, so even seasoned vets may not be aware of all the rules.  Consider printing out the necessary forms in advance as well as bringing a <a href="/checklist">checklist</a> of everything that needs to be accomplished.  A printable <a href="/checklist">checklist</a> that you can keep with your paperwork can be found on the <a href="/checklist">Checklist page.</a>
+The most important veterinary appointment is the last one.  This is where your dog will receive their tapeworm treatment, where your pet will be deemed fit to travel and where all your paperwork and documents will be completed.  The <a>PETS travel scheme</a> is fairly new and specific to the United Kingdom, so even seasoned vets may not be aware of all the rules.  Consider printing out the necessary forms in advance as well as bringing a <a href="/paperwork-checklist">checklist</a> of everything that needs to be accomplished.  A printable <a href="/paperwork-checklist">checklist</a> that you can keep with your paperwork can be found on the <a href="/paperwork-checklist">Checklist page.</a>
 
 <b>-Your dog must receive tapeworm treatment.</b>  This treatment must be approved for use in the United States as well as have praziquantel or an equivalent as its active ingredient.  If you are transporting a cat, they will not need a tapeworm treatment in order to be admitted into the United Kingdom.
 
@@ -25,6 +25,6 @@ The most important veterinary appointment is the last one.  This is where your d
 
 Before you leave the clinic, examine all of the paperwork.  Make sure that your vet has filled out all forms completely, that the ANNEX IV is signed and stamped and all of the dates and information is consistent across the paperwork.  This information will also be checked at the USDA office, but there may not be time to rectify any mistakes.
 
-After your final veterinary visit, your paperwork is almost complete.  If you have not yet completed the <a href="">declaration form</a> that states you will not sell or transfer ownership of your pet, do so now.  Once that is finished, you have successfully obtained all paperwork needed for travel.  
+After your final veterinary visit, your paperwork is almost complete.  If you have not yet completed the <a href="/fit-to-fly-declaration">declaration form</a> that states you will not sell or transfer ownership of your pet, do so now.  Once that is finished, you have successfully obtained all paperwork needed for travel.  
 
 Under the PETS scheme, all documentation must be original.  However, it’s a good idea to make copies for your own records as the originals will be surrendered at the airport when you drop your pet off at customs.  The paperwork will be returned to you when your pet has cleared customs in the United Kingdom.

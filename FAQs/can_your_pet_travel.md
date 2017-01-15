@@ -1,12 +1,13 @@
 ---
-layout: page
+layout: bannerPost
 title: Can my pet travel?
 fullTitle: Restrictions on pet travel and breeds
 permalink: /pet-travel-restrictions
-linkName: Restrictions
+linkName: Travel Restrictions
 order: 3
 excerpt: Information on banned breeds, airline restrictions and other reasons your pet may not easily move to the UK
 frontLinkImage: airplaneIcon.png
+bannerImage: airplaneBanner.png
 frontLinkOrder: 1
 ---
 

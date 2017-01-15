@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="home">
+	<div class="splash-wrapper">
+		<div class="splash">
+			<div>
+				<h1>{{ page.title }}</h1>
+				{{ page.excerpt }}
+			</div>
+		</div>
+	</div>
+	<div class="image-link-wrapper">
+		<div class="image-link-container">
+			{% assign sorted_pages = site.pages | sort:"frontLinkOrder" %}
+			{% for mpage in sorted_pages %}
+				{% assign path = mpage.path | split: "/" %}
+				{% if mpage.frontLinkImage != None and path.size < 3 and path.first == page.title and mpage != page %}
+					<a class="image-link" href="{{ mpage.url }}">
+						<div>{{ mpage.title }}</div>
+						<img src="/assets/img/{{ mpage.frontLinkImage }}" style="width: 200px; height: 200px;"/>
+				</a>
+				{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+$(".image-link-wrapper").css("margin-top", $(".splash").height() + 22 + "px");
+</script>

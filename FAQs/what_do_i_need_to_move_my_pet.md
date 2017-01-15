@@ -1,10 +1,15 @@
 ---
-layout: page
+layout: bannerPost
 title: What do I need to move my pet?
 permalink: /what-you-need
 order: 4
 excerpt: Airline approved crates, clearance fees, paperwork… know everything you’ll need to move your pet overseas
-linkName: What you need
+linkName: What You Need
+
+bannerImage: questionPawBanner.png
+frontLinkImage: questionMarkPaw.png
+frontLinkOrder: 2
+
 ---
 
 Before you begin planning your pet’s journey, familiarize yourself with the steps required to bring your pet into the United Kingdom.  You may be surprised to realize that once you’ve purchased your flights and crate, your pet is only two vet visits away from being able to enter the United Kingdom without quarantine.

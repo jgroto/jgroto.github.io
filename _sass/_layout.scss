@@ -14,6 +14,16 @@
     z-index: 10;
 }
 
+.twitter-share-container, .facebook-share-container {
+    position: absolute;
+    left: 12px; 
+    margin-top: $header-height + 12;
+}
+
+.facebook-share-container {
+    margin-top: $header-height + 36;   
+}
+
 .site-title {
     font-size: 26px;
     font-weight: 300;
@@ -55,6 +65,8 @@
     float: right;
     line-height: $header-height;
     vertical-align: middle;
+    margin-right: -44px;
+
 
     .menu-icon {
         display: none;
@@ -68,8 +80,9 @@
         color: $nav-text-color;
         line-height: $base-line-height;
 
-        font-size: 20px;
+        font-size: 26px;
         font-weight: 100;
+        margin-top: 10px;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -81,6 +94,7 @@
         display: inline-block;
         position: relative;
         font-family: helvetica;
+        margin-top: 5px;
     }
 
     .site-nav-children {
@@ -344,6 +358,8 @@ form
     display: inline-block;
     line-height: 96px;
 
+    margin-right: -180px;
+
     @include iPhone6s {
         line-height: $mobile-header-height;
     }
@@ -364,7 +380,32 @@ form
     padding: 0;
     position: relative;
     display: inline-block;
+    margin-bottom: 20px;
+
+    @include iPhone6s {
+      width: 150px * 1.02;
+      height: 150px;
+    }
 }
+
+.banner-image
+{
+    width: 250px * 1.02;
+    height: 250px;
+    float: right;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+
+    @include iPhone6s {
+      width: 150px * 1.02;
+      height: 150px;
+    }
+}
+
 
 .page-content
 {
@@ -390,33 +431,48 @@ form
     color: white;
     font-size: 20px;
     margin-top: 76px;
+     @include iPhone6s {
+           margin-top: 15px;
+     }
 }
 
 .home 
 {
-    //border: 4px solid green;
     padding-top: 40px;
-  //  width: 800px;
-//    margin: 0 auto;
 }
+
 .home .splash-wrapper
 {
     position: absolute;
     top: $header-height; 
-    @include iPhone6s {
-        top: $mobile-header-height;
-    }
     left: 0;
     right: 0;
     background-color: $header-background-color;
     border-bottom: 1px solid $nav-border-color;
+
+    @include iPhone6s {
+        top: $mobile-header-height;
+    }
 }
-.splash 
+
+
+.splash, .splash-post
 {
     width: 650px;
     margin: 0 auto;
     padding: 40px;
     color: white;
+
+    @include iPhone6s {
+        width: 350px;
+        padding: 10px;
+        padding-top: 16px;
+    }
+}
+
+.splash-post
+{
+    width: $content-width - $spacing-unit * 2;
 }
 
 #splash_text
@@ -425,21 +481,16 @@ form
 }
 div.nav-wrapper
 {
-  //  float: left;
     text-align: right;    
 }
 
 .home .image-link {
     margin: 10px;
-
     float: left;
-//x    clear: both;
     color: white;
     width: 200px;
-//    height: 276px;
     display: block;
     border: 1px solid #003366;
-
     background-color: $header-background-color;
 
     div {
@@ -448,18 +499,27 @@ div.nav-wrapper
         font-weight: bold;
         background-color: #003366;
     }
+
+    @include iPhone6s {
+        width: 44%;
+        margin: 2%; 
+        padding: 0;
+    }
 }
 
 .image-link-wrapper {
     margin: 0;
     padding: 0;
-    position: absolute;
-    left: 0; 
-    right: 0;
-    top: 436px;
-    height: 1084px;
-//    bottom: 360px;
-//    z-index: 1;
+//    position: absolute;
+  //  left: 0; 
+   // right: 0;
+//    top: $header-height + 336;
+  //  height: 1084px;
+
+    @include iPhone6s {
+        top: $mobile-header-height + 336;
+        height: 1390px;
+    }
 }
 
 .image-link-container {
@@ -467,9 +527,14 @@ div.nav-wrapper
     width: 680px;
     margin: 0 auto;
     padding: 0;
-//    display: block;
     clear: both;
-//    margin-top: 258px;
+
+    @include iPhone6s {
+        width: 100%;
+        padding: 1%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 }
 
 .bold-list {

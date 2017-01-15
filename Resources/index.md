@@ -1,5 +1,5 @@
 ---
-layout: group
+layout: bannerWithTitle
 title: Resources
 permalink: /resources/
 order: 2

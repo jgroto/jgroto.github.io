@@ -1,5 +1,5 @@
 ---
-layout: group
+layout: bannerWithTitle
 title: Guides
 permalink: /guides/
 order: 1

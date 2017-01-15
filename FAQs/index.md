@@ -1,5 +1,5 @@
 ---
-layout: group
+layout: bannerWithTitle
 title: FAQs
 permalink: /FAQs/
 order: 4

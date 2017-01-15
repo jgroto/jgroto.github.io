@@ -1,5 +1,5 @@
 ---
-layout: sequence
+layout: bannerSequence
 title: Step-by-Step Guide
 fullTitle: Step-by-Step walkthrough to move your pet from the US to the UK
 permalink: /step-by-step-walkthrough
@@ -8,6 +8,7 @@ order: 1
 excerpt: This Step-by-Step guide will walk you through how to move your pet from the US to the UK without any quarantine
 linkName: Step by step
 frontLinkImage: walkthroughIcon.png
+bannerImage: walkthroughBanner.png
 frontLinkOrder: 2
 ---
 
