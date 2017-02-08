@@ -39,6 +39,10 @@ excerpt: Ex-Pat Pup provides resources and information to move your pet from the
 		</div>
 	</div>
 
+	<div class="post-content">
+	{{ content }}
+	</div>
+
 	{% if page.url == "/"  or page.group != None %}
 	<div class="image-link-wrapper">
 		<div class="image-link-container">
@@ -69,12 +73,7 @@ excerpt: Ex-Pat Pup provides resources and information to move your pet from the
 			{% endfor %}
 		</div>
 	</div>
-	{% else %}
-	<div class="post-content">
-	{{ content }}
-	</div>
 	{% endif %}
-
 </div>
 
 <script type="text/javascript">

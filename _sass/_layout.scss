@@ -130,6 +130,8 @@
 
     @include iPhone6s {
         line-height: 60px;
+        position: absolute;
+        right: 20px;
     }
 
     @include media-query($on-palm) {
@@ -143,6 +145,7 @@
 
         @include iPhone6s {
             top: 16px;
+            right: 400px;
         }
 
         .menu-icon {
@@ -364,6 +367,7 @@ form
 
     @include iPhone6s {
         line-height: $mobile-header-height;
+        margin-right: -150px;
     }
 
     @include media-query($on-palm) {        
@@ -387,6 +391,8 @@ form
     @include iPhone6s {
       width: 150px * 1.02;
       height: 150px;
+      position: absolute;
+      right: 20px;
     }
 }
 
@@ -405,8 +411,8 @@ form
     display: inline-block;
 
     @include iPhone6s {
-      width: 150px * 1.02;
-      height: 150px;
+        height: 50px;
+        min-width: 50 * 1.6px;
     }
 }
 
@@ -437,7 +443,8 @@ form
     position: absolute;
     bottom: 21px;
      @include iPhone6s {
-           margin-top: 15px;
+        //margin-top: 15px;
+
      }
 }
 
@@ -457,7 +464,7 @@ form
 
 .splash, .splash-post, .tiled-splash
 {
-    width: $content-width;
+//    width: $content-width;
     margin: 0 auto;
     padding: 80px;
     padding-top: 20px;
@@ -473,15 +480,21 @@ form
 
 .tiled-splash {
     width: 660px;
+
+    @include iPhone6s {
+        width: 350px;
+        padding: 10px;
+        padding-top: 16px;
+    }
 }
 
 .splash p {
-    max-width: 650px;
+//    max-width: 650px;
 }
 
 .splash-post
 {
-    width: $content-width - $spacing-unit * 2;
+//    width: $content-width - $spacing-unit * 2;
 }
 
 #splash_text
@@ -512,8 +525,8 @@ div.nav-wrapper
     }
 
     @include iPhone6s {
-        width: 44%;
-        margin: 2%; 
+        width: 40%;
+        margin: 1%; 
         padding: 0;
     }
 }
