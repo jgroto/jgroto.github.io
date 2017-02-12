@@ -26,7 +26,7 @@ $('#contact-form-submit').click(function(e) {
     var contactEmail = $('#contact-email').val();
     var contactMessage = $('#contact-message').val();
     // data validation code here
-    var url = "https://docs.google.com/forms/d/e/1FAIpQLSdwStwgbkfXKk_Rzc_MXvY4j8wjzbUu0uXBJN9DMzzyv9SN5g/formResponse";
+    var url = "https://docs.google.com/forms/d/e/1FAIpQLSdwStwgbkfXKk_Rzc_MXvY4j8wjzbUu0uXBJN9DMzzyv9SN5g/formResponse/";
     var data = {
         'entry.1547290070': contactName,
         'entry.1703965265': contactEmail,
