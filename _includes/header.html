@@ -28,10 +28,11 @@
             {% assign path = childPage.path | split: "/" %}
               {% if path.size < 3 and path.first == navPage.title and childPage != navPage %}
               {% if childPage.linkName %}
-                <li class="site-nav-child"><a href="{{ childPage.url | prepend: site.baseurl }}">{{ childPage.linkName }}</a></li>
+              {% assign linkText = childPage.linkName %}
               {% else %}
-                <li class="site-nav-child"><a href="{{ childPage.url | prepend: site.baseurl }}">{{ childPage.title }}</a></li>
+              {% assign linkText = childPage.title %}
               {% endif %}
+              <li class="site-nav-child"><a href="{{ childPage.url | prepend: site.baseurl }}">{{ linkText }}</a></li>
               {% endif %}
             {% endfor %}
             </ul>

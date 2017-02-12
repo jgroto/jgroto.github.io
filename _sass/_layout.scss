@@ -180,6 +180,12 @@
             padding-bottom: 5px;
         }
 
+        &:hover .trigger .page-group, &:hover .trigger .page-link {
+            line-height: 25px;
+            margin: 0;
+            padding: 4 0;
+        }
+
         &:hover .trigger .page-group {
             display: block;
         }
@@ -370,7 +376,7 @@ body .site-footer {
     width: 100px;
 }
 
-form
+.search-form
 {
     float: right;
     display: inline-block;
