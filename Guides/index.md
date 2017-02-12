@@ -1,5 +1,5 @@
 ---
-layout: bannerPage
+layout: groupPage
 group: True
 title: Guides
 permalink: /guides/

@@ -1,5 +1,5 @@
 ---
-layout: bannerPage
+layout: groupPage
 group: True
 title: FAQs
 permalink: /FAQs/

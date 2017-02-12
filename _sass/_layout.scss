@@ -14,15 +14,24 @@
     z-index: 10;
 }
 
-.twitter-share-container, .facebook-share-container {
+.share-link-wrapper {
     position: absolute;
-    left: 9px; 
-    margin-top: $header-height + 12;
+/*    bottom: 0px;
+*/    top: 26px;
+      right: 9px; 
+
+    @include iPhone6s {
+        top: 14px;
+        display: none;
+    }
+
 }
 
+.twitter-share-container, .facebook-share-container {
+    margin-top: 12;
+}
 .facebook-share-container {
-    left: 11px; 
-    margin-top: $header-height + 36;
+    margin-left: 2px; 
 }
 
 .site-title {
@@ -128,12 +137,6 @@
         color: $nav-text-color;
     }
 
-    @include iPhone6s {
-        line-height: 60px;
-        position: absolute;
-        right: 20px;
-    }
-
     @include media-query($on-palm) {
         position: absolute;
         top: 32px;
@@ -145,7 +148,7 @@
 
         @include iPhone6s {
             top: 16px;
-            right: 400px;
+            right: 200px;
         }
 
         .menu-icon {
@@ -218,6 +221,15 @@ body .site-footer {
 .social-media-list {
     list-style: none;
     margin-left: 0;
+}
+
+.contact-list {
+    float: left;
+
+    li {
+        margin-right: 15px;
+        display: inline-block;
+    }
 }
 
 .footer-col-wrapper {
@@ -321,6 +333,7 @@ body .site-footer {
 }
 
 .post-content {
+    position: relative;
     margin-bottom: $spacing-unit;
 
     h2 {
@@ -362,12 +375,16 @@ form
     float: right;
     display: inline-block;
     line-height: 96px;
-
     margin-right: -180px;
 
     @include iPhone6s {
+        /*clear: right;*/
         line-height: $mobile-header-height;
-        margin-right: -150px;
+        /*margin-right: -150px;*/
+/*        position: absolute;
+        right: 10px;
+        margin: 0px;
+*/        margin-right: -345px;
     }
 
     @include media-query($on-palm) {        
@@ -379,7 +396,7 @@ form
 #dog_cat_splash
 {
     width: 250px * 1.02;
-    height: 250px;
+    min-height: 250px;
     float: right;
     vertical-align: center;
     margin: 0;
@@ -390,17 +407,16 @@ form
 
     @include iPhone6s {
       width: 150px * 1.02;
-      height: 150px;
-      position: absolute;
+      min-height: 150px;
+/*      position: absolute;
       right: 20px;
-    }
+*/    }
 }
 
 .banner-image
 {
-//    width: 250px * 1.02;
-    height: 100px;
-    min-width: 100 * 1.6px;
+    width: 100 * 1.6px;
+    min-height: 100px;
     float: left;
     vertical-align: center;
     margin: 20px;
@@ -410,9 +426,12 @@ form
     position: relative;
     display: inline-block;
 
+    /*border: 1px solid #003366;*/
+
     @include iPhone6s {
-        height: 50px;
-        min-width: 50 * 1.6px;
+        margin: 10px;
+        min-height: 30px;
+        width: 50 * 1.6px;
     }
 }
 
@@ -421,6 +440,7 @@ form
 {
     background-color: $background-color;
     font-family: helvetica;
+    //font-family: times;
     font-size: 18px;
 }
 
@@ -440,8 +460,8 @@ form
     display: inline-block;
     color: white;
     font-size: 20px;
-    position: absolute;
-    bottom: 21px;
+    /*position: absolute;*/
+    /*bottom: 21px;*/
      @include iPhone6s {
         //margin-top: 15px;
 
@@ -506,60 +526,101 @@ div.nav-wrapper
     text-align: right;    
 }
 
-.home .image-link {
+.image-link-container {
     margin: 10px;
-    margin-top: 0;
-    margin-bottom: 20px;
     float: left;
-    color: white;
-    width: 200px;
+    height: 100%;
     display: block;
     border: 1px solid #003366;
-    background-color: $header-background-color;
 
-    div {
-        min-height: 54px;
+    background-color: $lighter-header-background-color;
+
+    position: relative;
+
+    @include iPhone6s {
+        /*width: auto;*/
+
+        margin: 5px;
+        clear: both;
+    }
+
+    .article-title {
+        font-family: helvetica;
+        min-height: 26px;
         padding: 8px;
         font-weight: bold;
         background-color: #003366;
+        clear: both;
+        color: white;
+
+        a {
+            color: white;
+        }
+    }    
+
+    p {
+        padding: 12px;
+
+        @include iPhone6s {
+            padding: 6px;
+            /*line-height: 20px;*/
+            font-size: 14px;
+        }
     }
 
-    @include iPhone6s {
-        width: 40%;
-        margin: 1%; 
-        padding: 0;
+    .image-link {
+        margin-top: -1px;
+        margin-bottom: -1px;
+        margin-left: -1px;
+        margin-right: 16px;
+        float: left;
+        color: white;
+        display: inline-block;
+        border: 1px solid #003366;
+
+        @include iPhone6s {
+            margin-right: 8px;
+        }   
+
+        img {
+            min-height: 128px;
+            width: 120px;
+            float: left;
+
+        @include iPhone6s {
+            min-height: 96px;
+            width: 90px;
+        }
+
+/*            -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";*/
+        }
+    }
+
+    .image-link-footer {
+        clear: left;
     }
 }
+
 
 .image-link-wrapper {
-    margin: 0;
-    padding: 0;
-//    position: absolute;
-  //  left: 0; 
-   // right: 0;
-//    top: $header-height + 336;
-  //  height: 1084px;
-
-    @include iPhone6s {
-        top: $mobile-header-height + 336;
-        height: 1390px;
-    }
-}
-
-.image-link-container {
     position: relative;
     width: 680px;
     margin: 0 auto;
+    margin-top: -24px;
     padding: 0;
     clear: both;
 
     @include iPhone6s {
-        width: 100%;
-        padding: 1%;
-        padding-top: 0;
-        padding-bottom: 0;
+        width: auto;
+        margin-top: -24px;
     }
 }
+
 
 .bold-list {
     font-weight: bold;
@@ -569,3 +630,10 @@ div.nav-wrapper
         font-size: 16px;
     }
 }
+
+/*object {
+    @include iPhone6s {
+        width: 100%;
+        height: 100%;
+    }
+}*/

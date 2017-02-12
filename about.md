@@ -8,7 +8,7 @@ navlink: True
 excerpt: All the information you need to move your pet from the US to the UK
 ---
 
-Welcome to Expat Pup, a website dedicated to information for moving your pet easily and safely from the United States to the United Kingdom.  I began investigating how to successfully move a pet from the US to the UK in 2012 when I received a job offer from a London-based company.  My Jack Russell Terrier Roscoe has epilepsy and being 10 years old at the time, was not a young puppy any longer. 
+Welcome to Ex-Pat Pup, a website dedicated to information for moving your pet easily and safely from the United States to the United Kingdom.  I began investigating how to successfully move a pet from the US to the UK in 2012 when I received a job offer from a London-based company.  My Jack Russell Terrier Roscoe has epilepsy and being 10 years old at the time, was not a young puppy any longer. 
 <br><br>
 In an effort to circumvent flying a commercial airline I began researched pet transport companies.  I quickly realized that unless you have the money to book your pet on a private jet or commuter airplane, your pet will be flying in cargo on a commercial airline regardless of whether you use a travel service or not.  Once the realization set in that Roscoe would have to fly in cargo for this journey, I decided to forego using a third party and arrange his journey myself.
 <br><br>

@@ -1,0 +1,21 @@
+---
+layout: bannerPage
+---
+
+{% if page.url == "/"  or page.group != None %}
+<div class="image-link-wrapper">
+	{% assign sorted_pages = site.pages | sort:"frontLinkOrder" %}
+	{% for mpage in sorted_pages %}
+		{% assign path = mpage.path | split: "/" %}
+		{% if mpage.frontLinkImage != None and (page.url == "/" or path.size < 3 and path.first == page.title and mpage != page) %}
+		<div class="image-link-container">
+			<div class="article-title"><a href="{{ mpage.url }}">{{ mpage.title }}</a></div>
+			<a class="image-link" href="{{ mpage.url }}">
+				<img src="/assets/img/{{ mpage.frontLinkImage }}"/>
+			</a>
+				<p>{{ mpage.excerpt }}</p>	
+		</div>
+		{% endif %}
+	{% endfor %}
+</div>
+{% endif %}
