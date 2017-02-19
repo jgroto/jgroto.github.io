@@ -181,7 +181,7 @@
         text-align: right;
 
         @include iPhone6s {
-            top: 16px;
+            top: 7px;
             right: 200px;
         }
 
@@ -251,12 +251,22 @@ body .site-footer {
     background-color: $header-background-color;
     height: $footer-height;
 
+    line-height: 26px;
+
+    @include iPhone6s {
+        line-height: 6px;
+    }
+
     .footer-heading {
-        font-size: 18px;
+        /*font-size: 18px;*/
         margin-bottom: $spacing-unit / 2;
         position: absolute;
-        left: 80px;
+        left: 0px;
         color: $image-link-background-color;
+
+        @include iPhone6s {
+            left: 6px;
+        }
     }
 
     a {
@@ -271,28 +281,43 @@ body .site-footer {
 }
 
 .contact-list {
-    position: relative;
-
     margin: 0px;
     padding: 0px;
     width: 300px;
+
+    position: absolute;
+    right: 0px;
+
     li {
-        margin-right: 15px;
         display: inline;
+        margin-left: 15px;
+
+        @include iPhone6s {
+            margin-left: 6px;
+        }
     }
+
 }
 
 .footer-col-wrapper {
-    position: absolute;
+/*    position: absolute;
     right: 120px;
+*/    
+
+
     font-size: 15px;
     color: $background-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
+
+    @include iPhone6s {
+        right: 12px;
+    }
 }
 
 .footer-col {
     float: left;
+    position: relative;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
 }
@@ -300,6 +325,10 @@ body .site-footer {
 .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
+
+    float: right;
+    position: relative;
+    text-align: right;
 }
 
 .footer-col-2 {
@@ -631,7 +660,11 @@ div.nav-wrapper
         position: relative;
 
         @include iPhone6s {
-            margin: 5px;
+            /*margin: 5px;*/
+            width: 100%;
+            margin: 0px;
+            margin-bottom: 8px;
+            height: auto;
             clear: both;
         }
 
