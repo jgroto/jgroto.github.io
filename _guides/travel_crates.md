@@ -7,7 +7,7 @@ order: 3
 linkName: Buying a Crate
 frontLinkImage: crateIcon.png
 bannerImage: crateBanner.png
-frontLinkOrder: 4
+frontPageOrder: 2
 ---
 
 

@@ -19,7 +19,7 @@
 
         <div class="trigger">
           {% assign sorted_collections = site.collections | sort: "headerOrder" %}
-          {% for collection in site.collections %}
+          {% for collection in sorted_collections %}
           {% for navPage in collection.docs %}
           {% if navPage.navlink != None %}
             <div class="page-group">

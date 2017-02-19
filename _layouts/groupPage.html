@@ -6,7 +6,7 @@ layout: bannerPage
 	{% assign lowerTitle = page.title | downcase %}
 	{% for collection in site.collections %}
 		{% if collection.label == lowerTitle %}
-			<div class="image-link-column">
+			<div class="image-link-group">
 			{% assign sorted_pages = collection.docs | sort:"frontLinkOrder" %}
 			{% for doc in sorted_pages %}
 

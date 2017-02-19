@@ -5,12 +5,16 @@ layout: bannerPage
 {{ content }}
 
 <div class="image-link-wrapper">
+<h2 class="featured-pages-text">
+	<span>FEATURED PAGES</span>
+</h2>
 {% for cat in site.collections %}
 	{% if cat.label != "posts" %}
-	<div class="image-link-column">
-		<p class="image-link-category-title">{{ cat.label | upcase }}</p>
-		{% for doc in cat.docs %}
-			{% if doc.frontLinkImage != None %}
+	<div class="image-link-group">
+		<a href="{{ cat.permalink }}"><p class="image-link-category-title">{{ cat.label | upcase }}</p></a>
+		{% assign sorted_docs = cat.docs | sort: "frontPageOrder" %}
+		{% for doc in sorted_docs %}
+			{% if doc.frontPageOrder != None %}
 				<div class="image-link-container">
 					<a class="image-link" href="{{ doc.url }}">
 						<div class="image-link-header">

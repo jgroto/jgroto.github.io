@@ -22,12 +22,15 @@ markdown: kramdown
 collections:
   posts:
     output: false
-  faqs:
-    output: true
-    headerOrder: 2
   guides:
     output: true
+    permalink: /guides/
     headerOrder: 0
   resources:
     output: true
+    permalink: /resources/
     headerOrder: 1
+  faqs:
+    output: true
+    permalink: /FAQs/
+    headerOrder: 2

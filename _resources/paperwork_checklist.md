@@ -6,7 +6,7 @@ excerpt: Download this checklist to keep track of all documents needed for your 
 order: 3
 bannerImage: checklistBanner.png
 frontLinkImage: checklistIcon.png
-frontLinkOrder: 3
+frontPageOrder: 1
 ---
 
 This checklist includes all things necessary to move your pet from the US to the UK.  Use it as an organizational tool or to initiate conversations with your vet about what is necessary to bring your pet overseas.  

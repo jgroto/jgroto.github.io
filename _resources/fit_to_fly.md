@@ -6,7 +6,7 @@ excerpt: Most airlines require your pet be examined by a vet and deemed fit to f
 order: 2
 bannerImage: stethoscopeBanner.png
 frontLinkImage: stethoscopeicon.png
-frontLinkOrder: 4
+frontPageOrder: 2
 ---
 
 While not enforced by the UK government, most airlines require your pet to be examined by a vet and deemed fit to fly.  Check with your airline to see if any specific documents are required.  Most likely the paperwork provided by your veterinarian will be sufficient, however the USDA does provide a document linked below.  For more information, visit <a href="https://www.aphis.usda.gov">the official USDA website.</a>

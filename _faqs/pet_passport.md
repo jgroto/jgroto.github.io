@@ -8,7 +8,6 @@ order: 3
 excerpt: Pet passports are commonly mentioned on pet travel websites.  This article explains what a pet passport is and where you can find one
 frontLinkImage: petPassportIcon.png
 bannerImage: petPassportBanner.png
-frontLinkOrder: 6
 ---
 
 In an effort to ease travel restrictions on pets travelling to and within the EU, the Pet Travel Scheme (PETS) was created.  Part of the PET scheme included the Pet Passport, a document with uniform information regarding your pet’s identity, ownership, and medical history.  While pets from non-EU countries are able to enter without quarantine if meeting the requirements, countries like the United States do not issue pet passports.  Instead, pets from the United States are required to have a third-country official veterinary certificate (Annex).  

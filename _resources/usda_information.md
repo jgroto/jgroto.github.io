@@ -6,7 +6,6 @@ excerpt: After you have obtained all paperwork necessary for travel it will need
 order: 5
 bannerImage: rabiesBanner.png
 frontLinkImage: rabiesIcon.png
-frontLinkOrder: 5
 ---
 
 One of the most confusing and easily missed steps of the pet immigration process is the necessity of a USDA endorsement on the Annex certificate.  This requirement is not found on the uk.gov website, but within the Annex paperwork itself.  On the bottom of the document there are three sections.  The official/authorized veterinarian (USDA accredited), the endorsement by the competent authority (the USDA) and the official at the traveller’s point of entry.  Both the veterinarian and the endorsement must be completed prior to travel and the official at the point of entry section will be completed upon entry into the United Kingdom.  

@@ -6,8 +6,6 @@ excerpt: The Annex is the third-country official veterinary certificate for the 
 
 bannerImage: annexBanner.png
 frontLinkImage: annex.png
-frontLinkOrder: 4
-
 ---
 
 The third-country official veterinary certificate is the equivalent of the Pet Passport for non-EU countries.  While some non-EU countries do issue Pet Passports, the United States is not one of them.  While both documents contain similar information and are issued by veterinarians, there are different rules regarding Pet Passports and the Annex certificate.  If your pet has an Annex certificate they must arrive in an EU country within 10 days of issue and it’s only valid for four months.  The Pet Passport has no EU travel restrictions and is valid until your pet requires a vaccination or a booster.  If you are planning to travel in the EU with your pet, or stay in the EU for over four months, it’s important that you visit a vet soon after arrival with your pet’s travel documents and medical history to obtain a Pet Passport.  Much like a real passport, both the Annex certificate and the Pet Passport are stamped at every border.  Make sure your Annex paperwork has been stamped at customs before you leave. 

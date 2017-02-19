@@ -7,7 +7,6 @@ order: 2
 linkName: Vaccinations
 bannerImage: needleBanner.png
 frontLinkImage: needleIcon.png
-frontLinkOrder: 3
 ---
 
 The United Kingdom is considered rabies-free and because of that there are strict vaccination rules regarding pet travel.  While your pet may already be microchipped and have a rabies vaccination, there’s a chance these events took place in the wrong order.  The standards are also a bit different in Europe for microchips, so it is important to make sure your pet’s microchip is compatible and readable before you decide whether or not your pet needs a rabies vaccination.

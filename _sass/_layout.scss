@@ -41,6 +41,33 @@
     margin-left: 2px; 
 }
 
+.featured-pages-text {
+    border-bottom: 2px solid $text-color;
+    line-height: 4px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: block;
+    margin-right: 4%;
+    span {
+        font-family: helvetica;
+        font-weight: lighter;
+        font-size: 24px;
+
+        text-align: center;
+        width: 100%;
+        background-color: $background-color;
+        padding: 8px;
+    }
+}
+
+.sequence-link:before {
+    content:"";
+    display:block;
+    height: $header-height; /* fixed header height*/
+    margin:-$header-height 0 0; /* negative fixed header height */
+}
+
 .site-title {
     font-size: 26px;
     font-weight: 300;
@@ -570,12 +597,13 @@ div.nav-wrapper
         margin-top: -24px;
     }
 
-    .image-link-column {
+    .image-link-group {
         position: relative;
         float: left;
-        width: 48%;
-        margin-right: 2%;
+/*        width: 48%;
+        margin-right: 2%;*/
         display: block;
+        margin-bottom: 12px;
     }
 
     p {
@@ -590,6 +618,10 @@ div.nav-wrapper
         margin-bottom: 14px;
         float: left;
         height: 260px;
+
+        width: 46%;
+        margin-right: 4%;
+
         display: block;
 
         font-family: Georgia;
@@ -641,7 +673,7 @@ div.nav-wrapper
                 padding: 0px;
                 padding-top: 12px;
                 font-weight: bold;
-                font-size: 24px;
+                font-size: 22px;
                 /*background-color: #003366;*/
                 /*clear: both;*/
             }    
