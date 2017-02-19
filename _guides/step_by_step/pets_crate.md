@@ -7,6 +7,7 @@ timeline: True
 ---
 The bulk of the requirements for your pet’s shipping container come directly from the airlines.  While most specifications are similar, make sure you consult the documentation from your airline regarding any crate requirements.  If reading through the requirements sounds daunting, don’t worry!  Several companies make affordable kennels that meet all the requirements and they can be easily found.  Check the product page to see crates, stickers and accessories recommended for travel.
 
+<br><br>
 <h3>In order for your pet to travel, their crate must be IATA approved.  It also must meet the following specifications:</h3>
 
 <b>-The crate must be made of hard plastic.</b>  Some airlines will allow wood or metal crates especially in the case of larger pets.
@@ -31,6 +32,7 @@ The bulk of the requirements for your pet’s shipping container come directly f
 
 <b>-No wheels or front/rear handles allowed.</b>  Additional handles compromise the sturdiness of the cage and the wheels make it possible for your pet’s cage to roll during transport.  
 
+<br><br>
 <h3>Some other things to consider:</h3>
 
 -Most airlines do not allow toys, bones, bedding, medication or food during travel.  If the airline will allow it, you can include a drip-feed water bottle to ensure your pet is properly hydrated throughout the flight.  Most airlines suggest not feeding your dog two-four hours prior to take-off to limit the likelihood of an accident mid-flight.

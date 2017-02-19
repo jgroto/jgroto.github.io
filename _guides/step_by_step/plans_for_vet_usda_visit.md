@@ -7,6 +7,7 @@ timeline: True
 ---
 Once you have your pet’s microchip and rabies paperwork in order, it might be a good idea to schedule their final vet visit before your departure, especially if you have a particularly busy vet.  This visit must be between 24 hours to 5 days before departure and be completed by a USDA approved veterinarian.  Also note that once you have all of your travel documents filled out by your USDA vet, they must also be endorsed by a USDA official, which may be more difficult for some as most states only have one office with limited hours.  Knowing your USDA office hours and leaving one or two business days between your final vet visit and your flight will ensure you complete this final step before you travel.  Check to see if the <a href="/usda">USDA office you will be visiting</a> offers or requires appointments, you may be able to schedule this ahead of time.  
 
+<br><br>
 <h3>During your pet’s last veterinary trip before travel you will:</h3>
 
 <b>-have your vet fill out the third-country official veterinary certificate</b>

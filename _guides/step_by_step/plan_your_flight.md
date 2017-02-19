@@ -6,7 +6,7 @@ order: 1
 timeline: True
 ---
 Booking travel with your pet has a lot more restrictions than booking a flight for a human companion.  Due to the restricted flights, seats and routes, I recommend <b>booking your tickets at least two months in advance.</b>  The more time you allow, the more likely you will book a flight on your desired carrier, in and out of your desired cities.  You’re also less likely to be affected by snags such as needing a new microchip, rabies vaccination or a delay in the arrival of your pet’s crate.
-
+<br><br>
 <h3>Here are some things to consider when booking your flight:</h3>
 
 <b>The UK restricts pet entry to specific pre-approved routes and companies.</b>  Almost all approved airlines fly into Heathrow, but a few are allowed entry into Gatwick, Manchester, Glasgow and Edinburgh.  
@@ -21,6 +21,7 @@ Booking travel with your pet has a lot more restrictions than booking a flight f
 
 <b>The pet transport location is not always convenient to the airport departures.</b>  Your carrier may also require you to drop off your pet several hours in advance of your flight.  This is especially important if you need to take a connecting flight before your departure to the UK.  
 
+<br><br>
 <h3>Choosing an airline</h3>
 
 Your pet’s wellness and comfort depends greatly on this stage of planning.  If you are taking a regional flight to connect with your international one, you may be able to keep your pet in the cabin if they are small enough to fit underneath the seat.  However, on your international flight, your pet will not be with you in the main cabin, but within the cargo as required by the UK government.  Unfortunately, although the Department of Transportation requires airlines to submit animal injuries and fatalities in their Consumer Air Travel Report, there is no agency checking the submitted data is correct.  It is important to research up to date information about your specific carrier as the conditions of the cargo hold and the dedicated staff taking care of your pet vary from airline to airline.  While most cargo holds are pressurized, they’re not necessarily heated or cooled with the efficiency of the main cabin.  Only a few airlines, such as Virgin Atlantic, guarantee your pet will be in a temperature controlled environment with dedicated staff trained to handle animals.  The reality is, some airlines allow baggage handlers with no animal training to handle your pets and others fly planes that have less than optimal temperature environments in the hold.  Most accidents occur in the cargo during transport, although there have been several instances of animals being left on hot tarmacs or becoming loose from their cages due to handling negligence.  No one can guarantee a safe journey for either you or your pet, but choosing a shorter flight or an airline with a better safety record will greatly reduce the risks involved.

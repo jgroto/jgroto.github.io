@@ -1,0 +1,29 @@
+---
+layout: bannerPage
+---
+
+{{ content }}
+
+<div class="image-link-wrapper">
+{% for cat in site.collections %}
+	{% if cat.label != "posts" %}
+	<div class="image-link-column">
+		<p class="image-link-category-title">{{ cat.label | upcase }}</p>
+		{% for doc in cat.docs %}
+			{% if doc.frontLinkImage != None %}
+				<div class="image-link-container">
+					<a class="image-link" href="{{ doc.url }}">
+						<div class="image-link-header">
+							<img src="/assets/img/{{ doc.frontLinkImage }}"/>
+						</div>
+						<div class="article-title">{{ doc.title }}</div>
+					</a>
+					<p>{{ doc.excerpt | truncate: 128 }}</p>	
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+	{% endif %}
+{% endfor %}
+</div>
+

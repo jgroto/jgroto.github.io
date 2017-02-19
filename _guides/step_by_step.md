@@ -14,27 +14,33 @@ frontLinkOrder: 6
 
 Due to specific time restrictions outlined by the UK government, the order and timeliness of the necessary steps are very important.  The simplest and most time consuming mistake regards the strict rules for rabies vaccinations.  If your pet requires a rabies vaccination before traveling, the soonest your pet can travel is 21 days after the vaccination date.  Know if your pet needs a rabies vaccination before booking any travel arrangements.  
 
+
+{% for collection in site.collections %}
+	{% if collection.label == "guides" %}
+		{% assign sorted_pages = collection.docs | sort:"order" %}
+	{% endif %}
+{% endfor %}
+
 <div class="sequence-link-container">
-	{% assign sorted_pages = site.pages | sort:"order" %}
-	{% assign counter = 1 %}
-	{% for my_page in sorted_pages %}
-		{% if my_page.timeline %}
-			<a class="page-link" href="#{{ my_page.url | split:'/' }}">{{ counter }}) {{ my_page.title }}</a><br>
-		{% assign counter=counter | plus:1 %}
-		{% endif %}
-	{% endfor %}
+{% assign counter = 1 %}
+{% for my_page in sorted_pages %}
+	{% if my_page.timeline %}
+		<a class="page-link" href="#{{ my_page.url | split:'/' }}">{{ counter }}) {{ my_page.title }}</a><br>
+	{% assign counter=counter | plus:1 %}
+	{% endif %}
+{% endfor %}
 </div>
 
 <br>
 
 <div>
-{% assign sorted_pages = site.pages | sort:"order" %}
+
 {% assign counter = 1 %}
 {% for my_page in sorted_pages %}
 	{% if my_page.timeline %}
 	<a name="{{ my_page.url | split: '/' }}"></a>
 	<h2>STEP {{ counter }} - {{ my_page.title }}</h2>
-	{{ my_page.content }}<br>
+	{{ my_page.content }}<br><br>
 	{% assign counter=counter | plus:1 %}
 	{% endif %}
 {% endfor %}

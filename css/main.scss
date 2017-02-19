@@ -14,7 +14,8 @@ $base-line-height: 1.5;
 
 $spacing-unit:     16px;
 
-$text-color:       #000F1E;
+/*$text-color:       #000F1E;*/
+$text-color:	   #043458;
 $nav-text-color:   #DD0000;
 $nav-border-color: #DD0000;
 //$background-color: #fdfdfd;
@@ -25,21 +26,27 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$header-height:    100px;
-$mobile-header-height: 70px;
-$header-border-width: 4px;
-$header-background-color: #B0D2D3;
-$lighter-header-background-color: #D1E5E5;
+$splash-border-width: 8px;
+$header-height:    60px;
+$mobile-header-height: 50px;
+$header-border-width: 2px;
+/*$header-background-color: #B0D2D3;*/
+/*$lighter-header-background-color: #D1E5E5;*/
+$header-background-color: #043458;
+$lighter-header-background-color: #FFFFFF;
+$image-link-background-color: #B0D2D3;
+
+$page-link-font-size: 22px;
 
 // Width of the content area
-$content-width:    760px;
+$content-width:    780px;
 
 $header-width:	   790px;
 $on-palm:          925px;
 $on-laptop:        790px;
 
 
-$footer-height: 120px;
+$footer-height: 30px;
 
 
 // Use media queries like this:

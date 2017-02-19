@@ -1,10 +1,8 @@
 ---
 layout: bannerPage
-group: True
 title: About
 permalink: /about/
 order: 4
-navlink: True
 excerpt: All the information you need to move your pet from the US to the UK
 ---
 

@@ -18,26 +18,28 @@
         </a>
 
         <div class="trigger">
-          {% assign sorted_pages = site.pages | sort:"order" %}
-          {% for navPage in sorted_pages %}
+          {% assign sorted_collections = site.collections | sort: "headerOrder" %}
+          {% for collection in site.collections %}
+          {% for navPage in collection.docs %}
           {% if navPage.navlink != None %}
             <div class="page-group">
               <a class="page-link" href="{{ navPage.url | prepend: site.baseurl }}">{{ navPage.title | upcase }}</a>
             <ul class="site-nav-children">
-            {% for childPage in sorted_pages %}
+            {% for childPage in collection.docs %}
             {% assign path = childPage.path | split: "/" %}
-              {% if path.size < 3 and path.first == navPage.title and childPage != navPage %}
+              {% if path.last != "index.md" and path.size < 3 %}
               {% if childPage.linkName %}
-              {% assign linkText = childPage.linkName %}
+                {% assign linkText = childPage.linkName %}
               {% else %}
-              {% assign linkText = childPage.title %}
+                {% assign linkText = childPage.title %}
               {% endif %}
-              <li class="site-nav-child"><a href="{{ childPage.url | prepend: site.baseurl }}">{{ linkText }}</a></li>
+              <li class="site-nav-child"><a href="{{ childPage.url }}">{{ linkText }}</a></li>
               {% endif %}
             {% endfor %}
             </ul>
           </div>
           {% endif %}
+          {% endfor %}
           {% endfor %}
         </div>
       </nav>

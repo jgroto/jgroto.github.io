@@ -12,11 +12,7 @@ excerpt: Ex-Pat Pup provides resources and information to move your pet from the
 		<div class="splash">
 		{% endif %}
 			{% if page.bannerImage %}
-			{% if page.url == "/" %}
-			<img id="dog_cat_splash" src="/assets/img/{{ page.bannerImage }}"/>
-			{% else %}
 			<img class="banner-image" src="/assets/img/{{ page.bannerImage }}"/>
-			{% endif %}
 			{% endif %}
 			<div>
 				{% if page.articleTitle %}
@@ -31,9 +27,6 @@ excerpt: Ex-Pat Pup provides resources and information to move your pet from the
 				{{ page.excerpt }}
 				{% endif %}
 				</p>
-			{% if page.url == "/" %}
-				<a id="guide_link_splash" href="/step-by-step-walkthrough">GO TO THE STEP-BY-STEP GUIDE</a>
-			{% endif %}
 			</div>
 		</div>
 	</div>
@@ -45,5 +38,5 @@ excerpt: Ex-Pat Pup provides resources and information to move your pet from the
 </div>
 
 <script type="text/javascript">
-$(".page-content").css("margin-top", $(".splash-wrapper").height() + "px");
+$(".page-content").css("margin-top", $(".splash-wrapper").height() + 90 + "px");
 </script>

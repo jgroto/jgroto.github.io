@@ -7,6 +7,7 @@ timeline: True
 ---
 Most likely your pet is up to date on their rabies vaccination and they may also already have a microchip.  However, the UK requires your pet to be microchipped <b>before</b> your pet is vaccinated for rabies.  The timing is crucial and there are several things the export and import authorities will check to confirm the events have taken place in order.  It is also important that your pet’s microchip is ISO compatible.  There are different microchip standards throughout the world and some popular brands have Euro and non-Euro lines available for purchase.  If your pet already has a microchip that is not compliant, they can be chipped again without the previous one being removed.  However, if you do need to have your pet microchipped again, remember they will need to be vaccinated for rabies afterward, even if they already have been vaccinated for rabies before.  If your pet requires a rabies vaccination to travel, it is important to remember that <b>your pet cannot travel for 21 days after the rabies vaccination.</b>  (the date of vaccination counts as 0, not 1)
 
+<br><br>
 <h3>Before your pet is cleared to travel, the export authorities will most likely:</h3>
 
 <b>-Scan your pet’s microchip.</b>

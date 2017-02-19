@@ -18,3 +18,16 @@ url: "https://expatpup.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+collections:
+  posts:
+    output: false
+  faqs:
+    output: true
+    headerOrder: 2
+  guides:
+    output: true
+    headerOrder: 0
+  resources:
+    output: true
+    headerOrder: 1

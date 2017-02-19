@@ -1,21 +1,32 @@
 ---
 layout: bannerPage
 ---
-
-{% if page.url == "/"  or page.group != None %}
+<br>
 <div class="image-link-wrapper">
-	{% assign sorted_pages = site.pages | sort:"frontLinkOrder" %}
-	{% for mpage in sorted_pages %}
-		{% assign path = mpage.path | split: "/" %}
-		{% if mpage.frontLinkImage != None and (page.url == "/" or path.size < 3 and path.first == page.title and mpage != page) %}
-		<div class="image-link-container">
-			<div class="article-title"><a href="{{ mpage.url }}">{{ mpage.title }}</a></div>
-			<a class="image-link" href="{{ mpage.url }}">
-				<img src="/assets/img/{{ mpage.frontLinkImage }}"/>
-			</a>
-				<p>{{ mpage.excerpt }}</p>	
-		</div>
+	{% assign lowerTitle = page.title | downcase %}
+	{% for collection in site.collections %}
+		{% if collection.label == lowerTitle %}
+			<div class="image-link-column">
+			{% assign sorted_pages = collection.docs | sort:"frontLinkOrder" %}
+			{% for doc in sorted_pages %}
+
+				{% if doc.frontLinkImage != None %}
+					<div class="image-link-container">
+						<a class="image-link" href="{{ doc.url }}">
+							<div class="image-link-header">
+								<img src="/assets/img/{{ doc.frontLinkImage }}"/>
+							</div>
+							<div class="article-title">{{ doc.title }}</div>
+						</a>
+						<p>{{ doc.excerpt | truncate: 128 }}</p>	
+					</div>
+				{% endif %}
+
+			{% endfor %}
+
+			</div>
+
 		{% endif %}
 	{% endfor %}
 </div>
-{% endif %}
+

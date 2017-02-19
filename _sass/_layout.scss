@@ -9,7 +9,14 @@
         height: $mobile-header-height;
     }
     // Positioning context for the mobile navigation icon
-    position: relative;
+    /*position: relative;*/
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: $header-height;
+    background-color: $lighter-header-background-color;
 
     z-index: 10;
 }
@@ -17,7 +24,7 @@
 .share-link-wrapper {
     position: absolute;
 /*    bottom: 0px;
-*/    top: 26px;
+*/    top: 7px;
       right: 9px; 
 
     @include iPhone6s {
@@ -90,7 +97,7 @@
         color: $nav-text-color;
         line-height: $base-line-height;
 
-        font-size: 26px;
+        font-size: $page-link-font-size;
         font-weight: 100;
         margin-top: 10px;
 
@@ -114,7 +121,7 @@
         margin: 0;
         padding: 0;
 
-        top: 64px;
+        top: $header-height * .75;
         right: 14px;
         background-color: $background-color;
     }
@@ -139,7 +146,7 @@
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 32px;
+        top: 12px;
         right: 380px;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
@@ -216,11 +223,18 @@ body .site-footer {
     padding: $spacing-unit 0;
     background-color: $header-background-color;
     height: $footer-height;
-}
 
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    .footer-heading {
+        font-size: 18px;
+        margin-bottom: $spacing-unit / 2;
+        position: absolute;
+        left: 80px;
+        color: $image-link-background-color;
+    }
+
+    a {
+        color: $image-link-background-color;
+    }
 }
 
 .contact-list,
@@ -230,17 +244,22 @@ body .site-footer {
 }
 
 .contact-list {
-    float: left;
+    position: relative;
 
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
     li {
         margin-right: 15px;
-        display: inline-block;
+        display: inline;
     }
 }
 
 .footer-col-wrapper {
+    position: absolute;
+    right: 120px;
     font-size: 15px;
-    color: $grey-color;
+    color: $background-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -293,7 +312,7 @@ body .site-footer {
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    /*padding: $spacing-unit 0;*/
 }
 
 .page-heading {
@@ -380,7 +399,7 @@ body .site-footer {
 {
     float: right;
     display: inline-block;
-    line-height: 96px;
+    line-height: $header-height;
     margin-right: -180px;
 
     @include iPhone6s {
@@ -399,7 +418,7 @@ body .site-footer {
     }
 }
 
-#dog_cat_splash
+.dog-cat-front-page
 {
     width: 250px * 1.02;
     min-height: 250px;
@@ -481,7 +500,17 @@ body .site-footer {
     left: 0;
     right: 0;
     background-color: $header-background-color;
-    border-bottom: 1px solid $nav-border-color;
+    border-bottom: $splash-border-width solid $nav-border-color;
+
+    h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    p {
+        font-family: Georgia;
+        font-size: 34px;
+    }
 
     @include iPhone6s {
         top: $mobile-header-height;
@@ -490,7 +519,6 @@ body .site-footer {
 
 .splash, .splash-post, .tiled-splash
 {
-//    width: $content-width;
     margin: 0 auto;
     padding: 80px;
     padding-top: 20px;
@@ -505,22 +533,16 @@ body .site-footer {
 }
 
 .tiled-splash {
-    width: 660px;
+    padding: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 760px;
 
     @include iPhone6s {
         width: 350px;
         padding: 10px;
         padding-top: 16px;
     }
-}
-
-.splash p {
-//    max-width: 650px;
-}
-
-.splash-post
-{
-//    width: $content-width - $spacing-unit * 2;
 }
 
 #splash_text
@@ -532,98 +554,104 @@ div.nav-wrapper
     text-align: right;    
 }
 
-.image-link-container {
-    margin: 10px;
-    float: left;
-    height: 100%;
-    display: block;
-    border: 1px solid #003366;
-
-    background-color: $lighter-header-background-color;
-
-    position: relative;
-
-    @include iPhone6s {
-        /*width: auto;*/
-
-        margin: 5px;
-        clear: both;
-    }
-
-    .article-title {
-        font-family: helvetica;
-        min-height: 26px;
-        padding: 8px;
-        font-weight: bold;
-        background-color: #003366;
-        clear: both;
-        color: white;
-
-        a {
-            color: white;
-        }
-    }    
-
-    p {
-        padding: 12px;
-
-        @include iPhone6s {
-            padding: 6px;
-            /*line-height: 20px;*/
-            font-size: 14px;
-        }
-    }
-
-    .image-link {
-        margin-top: -1px;
-        margin-bottom: -1px;
-        margin-left: -1px;
-        margin-right: 16px;
-        float: left;
-        color: white;
-        display: inline-block;
-        border: 1px solid #003366;
-
-        @include iPhone6s {
-            margin-right: 8px;
-        }   
-
-        img {
-            min-height: 128px;
-            width: 120px;
-            float: left;
-
-        @include iPhone6s {
-            min-height: 96px;
-            width: 90px;
-        }
-
-/*            -moz-transform: scaleX(-1);
-            -o-transform: scaleX(-1);
-            -webkit-transform: scaleX(-1);
-            transform: scaleX(-1);
-            filter: FlipH;
-            -ms-filter: "FlipH";*/
-        }
-    }
-
-    .image-link-footer {
-        clear: left;
-    }
-}
-
-
 .image-link-wrapper {
     position: relative;
-    width: 680px;
+    /*width: 680px;*/
+    width: $content-width;
+    height: 100%;
     margin: 0 auto;
     margin-top: -24px;
     padding: 0;
-    clear: both;
+    float: left;
+    /*clear: both;*/
 
     @include iPhone6s {
         width: auto;
         margin-top: -24px;
+    }
+
+    .image-link-column {
+        position: relative;
+        float: left;
+        width: 48%;
+        margin-right: 2%;
+        display: block;
+    }
+
+    p {
+        font-family: helvetica;
+        font-weight: lighter;
+        font-size: 24px;
+    }
+
+
+    .image-link-container {
+        margin: 0px;
+        margin-bottom: 14px;
+        float: left;
+        height: 260px;
+        display: block;
+
+        font-family: Georgia;
+
+        /*border: 1px solid #003366;*/
+        background-color: $lighter-header-background-color;
+        position: relative;
+
+        @include iPhone6s {
+            margin: 5px;
+            clear: both;
+        }
+
+        p {
+            font-family: Georgia;
+            font-size: 18px;
+        }
+
+        .image-link {
+            width: 100%;
+            display: inline-block;
+
+            @include iPhone6s {
+                margin-right: 8px;
+            }   
+
+            img {
+                min-height: 128px;
+                width: 120px;
+                float: right;
+
+                @include iPhone6s {
+                    min-height: 96px;
+                    width: 90px;
+                }
+            }
+
+            .image-link-header {
+                float: right;
+                background-color: $image-link-background-color;
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+
+            .article-title {
+                font-family: helvetica;
+                min-height: 26px;
+                padding: 0px;
+                padding-top: 12px;
+                font-weight: bold;
+                font-size: 24px;
+                /*background-color: #003366;*/
+                /*clear: both;*/
+            }    
+
+
+        }
+
+        .image-link-footer {
+            clear: left;
+        }
     }
 }
 
