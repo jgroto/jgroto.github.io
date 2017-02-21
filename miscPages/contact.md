@@ -4,7 +4,8 @@ title: Contact
 permalink: /contact/
 excerpt: How to contact us
 ---
-  <?php
+
+<!--   <?php
 $action=$_REQUEST['action'];
 if ($action=="")    /* display the contact form */
     {
@@ -38,7 +39,7 @@ else                /* send the submitted data */
       }
     }  
 ?>
-
+ -->
 <form class="contact-form">
 	name<input type="text" id="contact-name" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="name" aria-describedby="i.desc.2111292586 i.err.2111292586" name="entry.1547290070" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
 	<br>
