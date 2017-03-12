@@ -451,12 +451,31 @@ body .site-footer {
     width: 100px;
 }
 
+
+#test {
+    width: 250px;
+}
+
+.site-header input.gsc-search-button {
+    display: none;
+}
+
+#searchForm {
+    height: $header-height;
+}
+
+#searchResults {
+    border: 1px solid $nav-border-color;
+    /*border-style: hidden;*/
+}
+
 .search-form
 {
     float: right;
     display: inline-block;
     line-height: $header-height;
-    margin-right: -180px;
+    width: 200px;
+    margin-right: -140px;
 
     @include iPhone6s {
         /*clear: right;*/

@@ -7,11 +7,9 @@ layout: default
 		{% if page.url == "/" or page.group != None %}
 		<div class="tiled-splash">
 		{% else %}
-		<div class="splash">
+		<div class="tiled-splash">
+		<!-- <div class="splash"> -->
 		{% endif %}
-			{% if page.bannerImage %}
-			<!-- <img class="banner-image" src="/assets/img/{{ page.bannerImage }}"/> -->
-			{% endif %}
 			<div>
 				{% if page.articleTitle %}
 				<h1>{{ page.articleTitle }}</h1>
@@ -34,7 +32,3 @@ layout: default
 	</div>
 
 </div>
-
-<script type="text/javascript">
-$(".page-content").css("margin-top", $(".splash-wrapper").height() + 90 + "px");
-</script>

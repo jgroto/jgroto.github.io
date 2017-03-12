@@ -1,14 +1,8 @@
 ---
-layout: page
+layout: bannerPage
 title: Search
 permalink: /search/
 order: 5
 ---
 
-<div id="tipue_search_content"></div>
-
-<script>
-$(document).ready(function() {
-     $('#tipue_search_input').tipuesearch();
-});
-</script>
+<div styling-function="removePlaceholder" id="searchResults" class="gcse-results-wrapper" style="border: 1px hidden red;"></div>
