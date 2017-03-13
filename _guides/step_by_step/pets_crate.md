@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Purchase your pet’s crate
-permalink: /purchase_your_pets_crate
+permalink: /purchase_your_pets_crate/
 order: 4
 timeline: True
 ---

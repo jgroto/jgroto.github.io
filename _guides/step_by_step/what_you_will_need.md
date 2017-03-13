@@ -1,7 +1,7 @@
 ---
 layout: page
 title: What you will need
-permalink: /what_you_will_need
+permalink: /what_you_will_need/
 order: 2
 ---
 

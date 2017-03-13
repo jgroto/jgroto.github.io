@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Make plans for your pet’s final vet visit and USDA endorsement
-permalink: /final_vet_visit_and_usda
+permalink: /final_vet_visit_and_usda/
 order: 3
 timeline: True
 ---

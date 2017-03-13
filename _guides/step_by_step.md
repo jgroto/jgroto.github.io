@@ -2,7 +2,7 @@
 layout: bannerPage
 title: Step-by-Step Guide
 fullTitle: Step-by-Step walkthrough to move your pet from the US to the UK
-permalink: /step-by-step-walkthrough
+permalink: /step-by-step-walkthrough/
 sequence_name: timeline
 order: 1
 excerpt: This Step-by-Step guide will walk you through how to move your pet from the US to the UK without any quarantine

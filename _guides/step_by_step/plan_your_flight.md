@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Plan Your Flight
-permalink: /plan_your_flight
+permalink: /plan_your_flight/
 order: 1
 timeline: True
 ---

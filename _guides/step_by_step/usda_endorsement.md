@@ -1,7 +1,7 @@
 ---
 layout: page
 title: USDA endorsement
-permalink: /usda_endorsement
+permalink: /usda_endorsement/
 order: 6
 timeline: True
 ---

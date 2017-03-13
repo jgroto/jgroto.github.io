@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Microchipping and Rabies Vaccination
-permalink: /microchipping_and_rabies_vaccination
+permalink: /microchipping_and_rabies_vaccination/
 order: 2
 timeline: True
 ---

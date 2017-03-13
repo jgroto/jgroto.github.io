@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Final vet visit and paperwork
-permalink: /final_vet_visit_and_paperwork
+permalink: /final_vet_visit_and_paperwork/
 order: 5
 timeline: True
 ---
