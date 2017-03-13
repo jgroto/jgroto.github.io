@@ -1,7 +1,7 @@
 ---
 layout: bannerPage
 title: What do I need to move my pet?
-permalink: /what-you-need
+permalink: /what-you-need/
 order: 4
 excerpt: Airline approved crates, clearance fees, paperwork… know everything you’ll need to move your pet overseas
 linkName: What You Need
