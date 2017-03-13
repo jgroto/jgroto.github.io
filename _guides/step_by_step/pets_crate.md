@@ -7,9 +7,7 @@ timeline: True
 ---
 The bulk of the requirements for your pet’s shipping container come directly from the airlines.  While most specifications are similar, make sure you consult the documentation from your airline regarding any crate requirements.  If reading through the requirements sounds daunting, don’t worry!  Several companies make affordable kennels that meet all the requirements and they can be easily found.  Check the product page to see crates, stickers and accessories recommended for travel.
 
-<br><br>
 <h3>In order for your pet to travel, their crate must be IATA approved.  It also must meet the following specifications:</h3>
-
 <b>-The crate must be made of hard plastic.</b>  Some airlines will allow wood or metal crates especially in the case of larger pets.
 
 <b>-The crate must be non-collapsible and front loading.</b>  (You cannot have a door on the top of the container)
@@ -32,9 +30,7 @@ The bulk of the requirements for your pet’s shipping container come directly f
 
 <b>-No wheels or front/rear handles allowed.</b>  Additional handles compromise the sturdiness of the cage and the wheels make it possible for your pet’s cage to roll during transport.  
 
-<br><br>
 <h3>Some other things to consider:</h3>
-
 -Most airlines do not allow toys, bones, bedding, medication or food during travel.  If the airline will allow it, you can include a drip-feed water bottle to ensure your pet is properly hydrated throughout the flight.  Most airlines suggest not feeding your dog two-four hours prior to take-off to limit the likelihood of an accident mid-flight.
 
 -Consider writing your pet’s name and information in permanent marker or paint on the sides and top of the container.  Remember you will also need two “live animals” stickers as well as at least two directional arrows.  At US customs, paperwork will be placed in a waterproof covering and taped on the top of the container to later be retrieved by UK customs. 
@@ -42,6 +38,5 @@ The bulk of the requirements for your pet’s shipping container come directly f
 -Your pet’s journey will be even more stressful if they are not comfortable in a crate.  Consider purchasing your pet’s crate early on and enticing them inside with food, treats or toys.  
 
 -If you have a heavy chewer, consider a crate with metal ventilation bars.  Holes within the plastic crate could be easily compromised by a determined dog.
-
 
 The <a href="https://www.amazon.com/Petmate-Kennel-Pets-15-Pound-Light/dp/B01IO8YKHS/ref=sr_1_8?ie=UTF8&qid=1483658584&sr=8-8&keywords=petmate+sky+kennel">Petmate Sky Kennel</a> and the <a href="https://www.amazon.com/Ultra-Vari-Kennel-28-25-30LB/dp/B000MLG484/ref=sr_1_2?ie=UTF8&qid=1483658674&sr=8-2&keywords=petmate+vari+kennel">Petmate Vari Kennel</a> come heavily recommended by pet travel experts and adhere to most airline requirements.  They are manufactured with plastic fittings, however, so you will need to purchase steel screws if flying on an airline that requires it.  You can find metal fittings here: link to metal fittings.  Purchasing information as well as additional recommended items are found on the <a href="/products">Products page.</a>

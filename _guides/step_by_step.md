@@ -39,8 +39,8 @@ Due to specific time restrictions outlined by the UK government, the order and t
 {% for my_page in sorted_pages %}
 	{% if my_page.timeline %}
 	<a class="sequence-link" name="{{ my_page.url | split: '/' }}"></a>
-	<h2>STEP {{ counter }} - {{ my_page.title }}</h2>
-	{{ my_page.content }}<br><br>
+	<h2>STEP {{ counter }} - {{ my_page.title }}</h2><br>
+	{{ my_page.content | newline_to_br }}<br><br>
 	{% assign counter=counter | plus:1 %}
 	{% endif %}
 {% endfor %}
