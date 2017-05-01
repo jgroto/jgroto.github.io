@@ -12,8 +12,16 @@ frontPageOrder: 2
 
 ---
 
+<h1>What do I need to move my pet?</h1>
+
+<h8> FAQs | Updated 05/01/2017 </h8>
+
+<br>
 Before you begin planning your pet’s journey, familiarize yourself with the steps required to bring your pet into the United Kingdom.  You may be surprised to realize that once you’ve purchased your flights and crate, your pet is only two vet visits away from being able to enter the United Kingdom without quarantine.
+
+<br>
 <h3>You will have to take the following steps to bring your pet into the United Kingdom:</h3>
+<br>
 <ul class="bold-list">
 	<li>Approved microchip (placed prior to the rabies vaccination with implantation record)*</li>
 	<li>Rabies vaccination and certificate</li>
@@ -30,6 +38,11 @@ Before you begin planning your pet’s journey, familiarize yourself with the st
 	</div>
 </ul>
 
+<br>
 The difficulty arises not in what you have to do, but when you have to do it.  Even straightforward steps, such as buying your pet’s plane ticket, have time constraints and restrictions that may affect other steps in the process.  
 
-Read the <a href="/step-by-step-walkthrough">Step-by-Step Guide</a> to learn more about how to plan your pet’s journey.
+<br>
+Read the <a href="/step-by-step-walkthrough">Step-by-Step Guide</a> to learn more about what is needed for your pet's journey.
+
+<br>
+<a href="/paperwork-checklist">Download the Paperwork Checklist</a> for an easy to read list of steps and documents needed for travel.

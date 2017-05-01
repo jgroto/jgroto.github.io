@@ -10,11 +10,15 @@ frontLinkImage: airplaneIcon.png
 bannerImage: airplaneBanner.png
 frontPageOrder: 1
 ---
+<h1>Can your pet travel?</h1>
 
-Unfortunately, not all pets are able to enter the United Kingdom.  Pets can be restricted for a number of reasons, including legislation, age and health risks.
+<h8> FAQs | Updated 05/01/2017 </h8>
 
 <br>
-<h1>Banned dog breeds</h1>
+Unfortunately, not all pets are able to enter the United Kingdom.  Pets can be restricted for a number of reasons, including government legislation or carrier rules regarding age and health risks posed by air travel.
+
+<br>
+<h2>Banned dog breeds</h2>
 The “Dangerous Dog act of 1991” states it’s illegal to own Specially Controlled Dogs in the United Kingdom without an exemption of the court.  The specified breeds are:
 <ul class="bold-list">
 	<li>Brazilian Fila</li>
@@ -25,12 +29,19 @@ The “Dangerous Dog act of 1991” states it’s illegal to own Specially Contr
 </ul>
 
 <br>
-<h1>Exotic animals</h1>
+<h2>Exotic animals</h2>
+
+<br>
 The United Kingdom also has restrictions on exotic animals.  Hybrids of domestic and exotic animals are considered exotic and are also banned.  Before you travel, check the <a href="http://www.legislation.gov.uk/uksi/2007/2465/schedule/made">UK list of exotic animals.</a>  Some breeds that are legal in the United States, like the Savannah Cat, fall under the “Dangerous Wild Animals Act of 1976” and are considered illegal without a court exemption.  However ferrets, which are illegal in some US states, are permitted in the UK.
 
 <br>
-<h1>Airline restricted animals</h1>
-While completely legal in the United Kingdom, snub-nosed animals are banned from flying on certain airlines due to respiratory health risks.  Some airlines permit travel, but only during cooler months of the year.  Unfortunately, even if the airline allows your pet to fly in the cabin, the United Kingdom requires all pets entering the country be inside the cargo hold.  Breeds considered snub-nosed dogs include but are not limited to:
+<h2>Airline restricted animals</h2>
+
+<br>
+While completely legal in the United Kingdom, snub-nosed animals are banned from flying on certain airlines due to respiratory health risks.  Some airlines permit travel, but only during cooler months of the year.  Unfortunately, even if the airline allows your pet to fly in the cabin, the United Kingdom requires all pets entering the country be inside the cargo hold.  
+
+<br>
+Breeds considered snub-nosed dogs include but are not limited to:
 <ul class="bold-list">
 	<li>Boston Terrier</li>
 	<li>Boxer</li>
@@ -42,6 +53,8 @@ While completely legal in the United Kingdom, snub-nosed animals are banned from
 	<li>Shar Pei</li>
 	<li>Shih Tzu</li>
 </ul>
+
+<br>
 The following cats are also considered snub-nosed and will be unable to fly on certain airlines:
 <ul class="bold-list">
 	<li>Burmese</li>
@@ -52,4 +65,5 @@ The following cats are also considered snub-nosed and will be unable to fly on c
 <br>
 <h1>Age and health restrictions</h1>
 
+<br>
 If you are bringing one pet they must be over 15 weeks old to enter the United Kingdom.  However, if you’re bringing five or more pets, they must all be over six months old.  If your pet is overweight, has respiratory problems or any other health risks that would make it dangerous, airlines may refuse to board your pet.  Consult your veterinarian before making travel plans; most airlines require an examination and a written statement confirming your pet is fit to fly.
